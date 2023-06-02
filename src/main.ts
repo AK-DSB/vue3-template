@@ -10,5 +10,6 @@ const app = createApp(App);
 
 app.use(Antd);
 app.use(globalComponent);
+console.log(import.meta.env.VITE_APP_BASE_API);
 
 app.mount("#app");
