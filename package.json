@@ -19,7 +19,14 @@
   "dependencies": {
     "ant-design-vue": "^3.2.20",
     "axios": "^1.4.0",
-    "vue": "^3.2.47"
+    "vue": "^3.2.47",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.34",
+    "pinia-plugin-persistedstate": "^3.1.0",
+    "progress": "^2.0.3",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.21.8",
@@ -50,6 +57,7 @@
     "stylelint-scss": "^5.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
+    "@types/nprogress": "^0.2.0",
     "vite-plugin-svg-icons": "^2.0.1",
     "vue-tsc": "^1.4.2"
   }
